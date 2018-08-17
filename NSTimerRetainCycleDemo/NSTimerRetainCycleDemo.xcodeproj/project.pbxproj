@@ -13,6 +13,8 @@
 		18B467F0212697FD005D8672 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B467EF212697FD005D8672 /* Assets.xcassets */; };
 		18B467F3212697FD005D8672 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B467F1212697FD005D8672 /* LaunchScreen.storyboard */; };
 		18B467F6212697FD005D8672 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B467F5212697FD005D8672 /* main.m */; };
+		18B467FE21269BB3005D8672 /* EOCClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B467FD21269BB3005D8672 /* EOCClass.m */; };
+		18B4680121269CC5005D8672 /* NSTimer+EOCBlocksSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B4680021269CC5005D8672 /* NSTimer+EOCBlocksSupport.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		18B467F2212697FD005D8672 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18B467F4212697FD005D8672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18B467F5212697FD005D8672 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18B467FC21269BB3005D8672 /* EOCClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCClass.h; sourceTree = "<group>"; };
+		18B467FD21269BB3005D8672 /* EOCClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCClass.m; sourceTree = "<group>"; };
+		18B467FF21269CC5005D8672 /* NSTimer+EOCBlocksSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+EOCBlocksSupport.h"; sourceTree = "<group>"; };
+		18B4680021269CC5005D8672 /* NSTimer+EOCBlocksSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+EOCBlocksSupport.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				18B467E7212697FA005D8672 /* AppDelegate.m */,
 				18B467E9212697FA005D8672 /* ViewController.h */,
 				18B467EA212697FB005D8672 /* ViewController.m */,
+				18B467FC21269BB3005D8672 /* EOCClass.h */,
+				18B467FD21269BB3005D8672 /* EOCClass.m */,
+				18B467FF21269CC5005D8672 /* NSTimer+EOCBlocksSupport.h */,
+				18B4680021269CC5005D8672 /* NSTimer+EOCBlocksSupport.m */,
 				18B467EC212697FB005D8672 /* Main.storyboard */,
 				18B467EF212697FD005D8672 /* Assets.xcassets */,
 				18B467F1212697FD005D8672 /* LaunchScreen.storyboard */,
@@ -143,6 +153,8 @@
 			files = (
 				18B467EB212697FB005D8672 /* ViewController.m in Sources */,
 				18B467F6212697FD005D8672 /* main.m in Sources */,
+				18B467FE21269BB3005D8672 /* EOCClass.m in Sources */,
+				18B4680121269CC5005D8672 /* NSTimer+EOCBlocksSupport.m in Sources */,
 				18B467E8212697FA005D8672 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +295,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3UQYN8PD89;
 				INFOPLIST_FILE = NSTimerRetainCycleDemo/Info.plist;
@@ -300,6 +313,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3UQYN8PD89;
 				INFOPLIST_FILE = NSTimerRetainCycleDemo/Info.plist;
